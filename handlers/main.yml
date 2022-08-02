@@ -1,0 +1,4 @@
+---
+# handlers file for myapache-fpt
+- name: restart apache
+  service: name=httpd state=restarted
